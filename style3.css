@@ -1,0 +1,109 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(211, 189, 89, 0.747);
+    padding: 10px; 20px
+}
+
+
+
+.menu{
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: rgba(233, 113, 8, 1.5);
+    font-size: 30px;
+}
+
+.menu a:hover{
+    color: rgb(231, 229, 240);
+}
+
+
+
+.logo img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid  rgba(233, 113, 8, 1.5);
+    margin: px 
+}
+
+
+/* sa se pati hero a */
+.hero{
+     height: 100vh;
+     background-image:url("https://img.magnific.com/premium-photo/yellow-orange-color-abstract-background-design-images-wallpaperyellow-orange-ai-generated_1145931-15553.jpg");
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    }
+
+.content{
+     text-align: center;
+     color: #f4f4f4f4;
+     background: rgb(0, 0, 0, 0.5);
+     padding: 20px;
+     border-radius: 10px;
+}
+
+.hero span{
+    color: rgb(248, 138, 13);
+}
+
+.ecole{
+    color: blue;
+    font-size: 20px;
+}
+button{
+    padding: 15px 30px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(233, 113, 8, 0.87);
+    color: rgb(240, 236, 230);
+    cursor: pointer;
+
+}
+.cards{
+display: flex;
+justify-content: center;
+align-items: stretch;
+gap: 50px;
+flex-wrap: wrap;
+}
+
+.card{
+    width: 250px;
+    text-align: center;
+    border-radius: 15px;
+    padding: 15px;
+    background-color: rgba(233, 113, 8, 0.87);
+}
+
+.card img{
+    width: 100%;
+    height: 75%;
+    border-radius: 10px;
+}
+
+.service h2{
+    text-align: center;
+    color:  rgba(233, 113, 8, 0.87);
+    font-size: 30px;
+
+}
